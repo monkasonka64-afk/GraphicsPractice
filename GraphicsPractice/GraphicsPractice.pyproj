@@ -1,0 +1,173 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ca119ce9-b6b2-465f-a36f-9287d0b38c1e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>GraphicsPractice</Name>
+    <RootNamespace>GraphicsPractice</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GraphicsPractice.py" />
+    <Compile Include="lesson_03.py" />
+    <Compile Include="lesson_04.py" />
+    <Compile Include="lesson_05.py" />
+    <Compile Include="lesson_06.py" />
+    <Compile Include="lesson_07.py" />
+    <Compile Include="lesson_08.py" />
+    <Compile Include="lesson_09.py" />
+    <Compile Include="lesson_10.py" />
+    <Compile Include="lesson_10_2.py" />
+    <Compile Include="lesson_10_3.py" />
+    <Compile Include="lesson_11.py" />
+    <Compile Include="lesson_11_2.py" />
+    <Compile Include="lesson_11_3.py" />
+    <Compile Include="lesson_12.py" />
+    <Compile Include="lesson_13.py" />
+    <Compile Include="lesson_14.py" />
+    <Compile Include="lesson_15.py" />
+    <Compile Include="lesson_16.py" />
+    <Compile Include="lesson_17.py" />
+    <Compile Include="lesson_18.py" />
+    <Compile Include="lesson_19.py" />
+    <Compile Include="lesson_20.py" />
+    <Compile Include="lesson_21.py" />
+    <Compile Include="lesson_22.py" />
+    <Compile Include="lesson_23.py" />
+    <Compile Include="lesson_23_1.py" />
+    <Compile Include="lesson_24.py" />
+    <Compile Include="lesson_25.py" />
+    <Compile Include="lesson_26.py" />
+    <Compile Include="lesson_26_2.py" />
+    <Compile Include="lesson_27.py" />
+    <Compile Include="lesson_28.py" />
+    <Compile Include="lesson_29.py" />
+    <Compile Include="lesson_30.py" />
+    <Compile Include="lesson_4_2.py" />
+    <Compile Include="lesson_4_3.py" />
+    <Compile Include="lesson_5_2.py" />
+    <Compile Include="lesson_5_3.py" />
+    <Compile Include="lesson_6_2.py" />
+    <Compile Include="lesson_7_2.py" />
+    <Compile Include="lesson_7_3.py" />
+    <Compile Include="lesson_8_2.py" />
+    <Compile Include="lesson_8_3.py" />
+    <Compile Include="lesson_9_2.py" />
+    <Compile Include="lesson_9_3.py" />
+    <Compile Include="main.py" />
+    <Compile Include="prepare_assets.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="screenshots\" />
+    <Folder Include="output\" />
+    <Folder Include="source\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\app.ico" />
+    <Content Include="assets\exit.png" />
+    <Content Include="assets\home.png" />
+    <Content Include="assets\search.png" />
+    <Content Include="assets\settings.png" />
+    <Content Include="assets\user.png" />
+    <Content Include="output\arrow_left.png" />
+    <Content Include="output\arrow_up.png" />
+    <Content Include="output\avatar.png" />
+    <Content Include="output\avatar_96.png" />
+    <Content Include="output\avatar_custom.png" />
+    <Content Include="output\banner_600x150.png" />
+    <Content Include="output\bg_darkened_40.png" />
+    <Content Include="output\bg_gradient_800x600.png" />
+    <Content Include="output\bg_main.jpg" />
+    <Content Include="output\bg_q30.jpg" />
+    <Content Include="output\bg_q50.jpg" />
+    <Content Include="output\bg_q70.jpg" />
+    <Content Include="output\bg_q85.jpg" />
+    <Content Include="output\bg_q95.jpg" />
+    <Content Include="output\card_with_shadow.png" />
+    <Content Include="output\centered_bg.jpg" />
+    <Content Include="output\collage_2x2.png" />
+    <Content Include="output\composite_25.png" />
+    <Content Include="output\composite_50.png" />
+    <Content Include="output\composite_75.png" />
+    <Content Include="output\corner_bottom_left.png" />
+    <Content Include="output\corner_bottom_right.png" />
+    <Content Include="output\corner_top_left.png" />
+    <Content Include="output\corner_top_right.png" />
+    <Content Include="output\darkened_with_text.png" />
+    <Content Include="output\enhance_bright_1_3.png" />
+    <Content Include="output\enhance_color_0_5.png" />
+    <Content Include="output\enhance_contrast_1_4.png" />
+    <Content Include="output\filter_blur.png" />
+    <Content Include="output\filter_contour.png" />
+    <Content Include="output\filter_edge_enhance.png" />
+    <Content Include="output\filter_gaussianblur_5.png" />
+    <Content Include="output\filter_sharpen.png" />
+    <Content Include="output\fitted_image.png" />
+    <Content Include="output\header_gradient_800x60.png" />
+    <Content Include="output\icon_btn.png" />
+    <Content Include="output\icon_close_24.png" />
+    <Content Include="output\icon_home_64.png" />
+    <Content Include="output\icon_plus_24.png" />
+    <Content Include="output\logo_grid_2x2.png" />
+    <Content Include="output\logo_header.png" />
+    <Content Include="output\logo_on_black.png" />
+    <Content Include="output\logo_on_blue.png" />
+    <Content Include="output\logo_on_red.png" />
+    <Content Include="output\logo_transparent.png" />
+    <Content Include="output\optimization.csv" />
+    <Content Include="output\opt_no_optimize.png" />
+    <Content Include="output\opt_quant_64.png" />
+    <Content Include="output\opt_with_optimize.png" />
+    <Content Include="output\photo_gray.jpg" />
+    <Content Include="output\photo_rgba.png" />
+    <Content Include="output\program_logo_256.png" />
+    <Content Include="output\report.txt" />
+    <Content Include="output\resized.png" />
+    <Content Include="output\rotate_180.png" />
+    <Content Include="output\rotate_270.png" />
+    <Content Include="output\rotate_45.png" />
+    <Content Include="output\rotate_45_converted.jpg" />
+    <Content Include="output\rotate_90.png" />
+    <Content Include="output\rounded.png" />
+    <Content Include="output\rounded_bordered.png" />
+    <Content Include="output\sprite_extracted_user.png" />
+    <Content Include="output\style_sheet_800x500.png" />
+    <Content Include="output\thumb_bilinear.png" />
+    <Content Include="output\thumb_lanczos.png" />
+    <Content Include="output\thumb_list.png" />
+    <Content Include="output\thumb_nearest.png" />
+    <Content Include="output\красный квадрат.jpg" />
+    <Content Include="output\фото_converted.bmp" />
+    <Content Include="output\фото_converted.gif" />
+    <Content Include="output\фото_converted.png" />
+    <Content Include="source\без фона.jpg" />
+    <Content Include="source\бмп.bmp" />
+    <Content Include="source\гиф.gif" />
+    <Content Include="source\лого.jpg" />
+    <Content Include="source\папка.jpg" />
+    <Content Include="source\фото.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
